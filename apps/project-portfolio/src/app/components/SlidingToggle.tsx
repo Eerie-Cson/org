@@ -1,5 +1,3 @@
-// components/SlidingToggle.tsx
-
 'use client';
 
 import { useState } from 'react';

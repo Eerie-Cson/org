@@ -1,5 +1,3 @@
-// pages/tasks.tsx
-
 import TaskNavbar from '../components/task/TaskNavbar';
 
 export default function Tasks() {
