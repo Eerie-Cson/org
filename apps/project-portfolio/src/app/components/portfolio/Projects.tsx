@@ -1,28 +1,5 @@
 import React from 'react';
-
-const projectsData = [
-  {
-    title: 'Project One',
-    description:
-      'This is a brief description of the first project. It involves using React, Node.js, and GraphQL.',
-    link: '#',
-    technologies: ['React', 'Node.js', 'GraphQL'],
-  },
-  {
-    title: 'Project Two',
-    description:
-      'This is a brief description of the second project. It focuses on TypeScript, NestJS, and Event Sourcing.',
-    link: '#',
-    technologies: ['TypeScript', 'NestJS', 'Event Sourcing'],
-  },
-  {
-    title: 'Project Three',
-    description:
-      'This is a brief description of the third project. It utilizes Express, MongoDB, and RESTful APIs.',
-    link: '#',
-    technologies: ['Express', 'MongoDB', 'RESTful API'],
-  },
-];
+import { projects } from '../../data/projects';
 
 function Projects() {
   return (
@@ -36,7 +13,7 @@ function Projects() {
         </p>
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projectsData.map((project, index) => (
+          {projects.map((project, index) => (
             <div
               key={index}
               className="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300 ease-in-out"

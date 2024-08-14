@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiRepeat } from 'react-icons/fi';
-import { Progress, Task, tasks } from '../../data/tasks';
+import { Progress, Task } from '../../types/tasks';
 
 const TaskCard = ({ task, onClick }: { task: Task; onClick: () => void }) => {
   return (

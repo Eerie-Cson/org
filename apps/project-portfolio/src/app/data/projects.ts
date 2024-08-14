@@ -1,22 +1,23 @@
-// data/projects.ts
-
 export const projects = [
   {
-    id: 1,
-    title: 'Project One',
-    description: 'A detailed description of Project One.',
-    link: 'https://example.com/project-one',
+    title: 'Inventory CRUD',
+    description:
+      'This is my very first attempt to practice CRUD/Restful api. It uses express/koa, mongodb, and javascript.',
+    link: 'https://github.com/Eerie-Cson/Inventoref',
+    technologies: ['Express', 'Node.js', 'Mongodb', 'Javascript'],
   },
   {
-    id: 2,
-    title: 'Project Two',
-    description: 'A detailed description of Project Two.',
-    link: 'https://example.com/project-two',
+    title: 'PCP System',
+    description:
+      'This app focuses on managing PC parts and inventory. It utilizes NestJS, MongoDB, GraphQL, and microservices.',
+    link: 'https://github.com/Eerie-Cson/pcp-project',
+    technologies: ['TypeScript', 'NestJS', 'MongoDB', 'GraphQL', 'NX'],
   },
   {
-    id: 3,
-    title: 'Project Three',
-    description: 'A detailed description of Project Three.',
-    link: 'https://example.com/project-three',
+    title: 'Note Taker',
+    description:
+      'This app focuses on managing notes. It utilizes Nestjs, MongoDB, OAuth, docker and RESTful API.',
+    link: 'https://github.com/Eerie-Cson/note-taker',
+    technologies: ['Nestjs', 'MongoDB', 'RESTful API', 'OAuth'],
   },
 ];

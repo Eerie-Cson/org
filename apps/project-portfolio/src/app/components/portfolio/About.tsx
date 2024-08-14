@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDownload, FaUserAlt } from 'react-icons/fa'; // For icons
+import { FaDownload, FaUserAlt } from 'react-icons/fa';
 
 function About() {
   return (
@@ -20,10 +20,11 @@ function About() {
               <FaUserAlt className="text-purple-400 text-4xl mb-4 mx-auto" />
               <h3 className="text-3xl font-bold text-white mb-2">My Journey</h3>
               <p className="text-gray-300">
-                From starting with TypeScript and Node.js to mastering React and
-                GraphQL, my journey has been filled with exciting challenges and
-                opportunities. I thrive on solving complex problems and am
-                always eager to embrace new technologies.
+                From starting with Javascript and Node.js to mastering
+                TypeScript, microservices, RESTful apis and GraphQL, my journey
+                has been filled with exciting challenges and opportunities. I
+                thrive on solving complex problems and am always eager to
+                embrace new technologies.
               </p>
             </div>
             <div className="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105">
@@ -37,7 +38,7 @@ function About() {
                 table. Click the button below to get started!
               </p>
               <a
-                href="#"
+                href="https://neal.fun/perfect-circle/"
                 className="mt-4 inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white text-lg font-medium px-4 py-2 rounded-full shadow-lg hover:bg-gradient-to-l hover:from-blue-600 hover:to-blue-500 transition duration-300 ease-in-out"
               >
                 <FaDownload className="inline-block mr-2" />

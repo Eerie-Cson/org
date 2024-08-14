@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import TaskCard from './TaskCard'; // Import the separated TaskCard component
-import { Task, tasks } from '../../data/tasks'; // Importing the dummy data
-import TaskModal from './TaskModal'; // Import the TaskModal component
+import TaskCard from './TaskCard';
+import { tasks } from '../../data/tasks';
+import { Task } from '../../types/tasks';
+import TaskModal from './TaskModal';
 
 const TaskList = () => {
   const [selectedTask, setSelectedTask] = useState<Task | null>(null);

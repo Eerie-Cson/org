@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiX } from 'react-icons/fi';
-import { Progress, tasks } from '../../data/tasks';
+import { tasks } from '../../data/tasks';
+import { Progress } from '../../types/tasks';
 
 const TaskModal = ({
   task,

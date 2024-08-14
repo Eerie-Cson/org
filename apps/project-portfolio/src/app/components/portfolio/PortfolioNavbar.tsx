@@ -1,5 +1,3 @@
-// components/PortfolioNavbar.tsx
-
 'use client';
 
 import { useState } from 'react';
