@@ -81,7 +81,7 @@ function Contact() {
             </div>
             <div className="flex gap-6 text-gray-300">
               <a
-                href="https://github.com/your-username"
+                href="https://github.com/Eerie-Cson"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition duration-300"
@@ -89,7 +89,7 @@ function Contact() {
                 <FaGithub size={32} />
               </a>
               <a
-                href="https://linkedin.com/in/your-username"
+                href="https://www.linkedin.com/in/ericson-sacdalan-32a763207/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition duration-300"
@@ -105,7 +105,7 @@ function Contact() {
                 <FaTwitter size={32} />
               </a>
               <a
-                href="https://instagram.com/your-username"
+                href="https://www.instagram.com/ericseon___/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition duration-300"
