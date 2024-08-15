@@ -9,7 +9,7 @@ import Projects from './portfolio/Projects';
 import About from './portfolio/About';
 import Contact from './portfolio/Contact';
 import TaskList from './task/TaskList';
-import TaskHome from './task/TaskHome';
+import TaskHome from './task/home-components/TaskHome';
 import Achivement from './task/AchievementList';
 import Dashboard from './task/Dashboard';
 import Progress from './task/Progress';
