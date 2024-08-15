@@ -17,15 +17,15 @@ const InfoCards: React.FC = () => {
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 pt-12 text-center">
       <InfoCard
         title="Morning Routine"
-        description="Scroll through social media and regretting life choice"
+        description="Kickstart the day with a structured morning routine to boost productivity and well-being."
       />
       <InfoCard
         title="Learning Goals"
-        description="Spend the day procrastinating and binge watching TV."
+        description="Set specific, measurable learning objectives to advance knowledge and skills."
       />
       <InfoCard
         title="Evening Reflection"
-        description="Spend 20 minutes of questioning life choices"
+        description="Review the day’s accomplishments and challenges to foster growth and prepare for tomorrow."
       />
     </div>
   );
