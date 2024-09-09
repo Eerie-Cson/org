@@ -2,17 +2,24 @@
 
 import { useState } from 'react';
 import { FaBriefcase, FaTasks } from 'react-icons/fa';
+// import { tasks } from '../data/tasks';
 import TaskNavbar from './task/TaskNavbar';
 import PortfolioHome from './portfolio/PortfolioHome';
 import PortfolioNavbar from './portfolio/PortfolioNavbar';
 import Projects from './portfolio/Projects';
 import About from './portfolio/About';
 import Contact from './portfolio/Contact';
-import TaskList from './task/TaskList';
-import TaskHome from './task/home-components/TaskHome';
-import Achivement from './task/AchievementList';
-import Dashboard from './task/Dashboard';
-import Progress from './task/Progress';
+
+import InProgress from './task/InProgress';
+
+// import TaskList from './task/TaskList';
+// import TaskHome from './task/home-components/TaskHome';
+// import Achivement from './task/AchievementList';
+// import Dashboard from './task/TestDesign/Dashboard';
+// import Progress from './task/Progress';
+// import SampleTaskList from './task/TestDesign/SampleTaskList';
+// import SampleTaskTable from './task/TestDesign/SampleTaskTable';
+// import StaskList from './task/TestDesign/TaskList';
 
 const SlidingToggle = () => {
   const [isPortfolio, setIsPortfolio] = useState(true);
@@ -32,11 +39,13 @@ const SlidingToggle = () => {
           </>
         ) : (
           <>
-            <TaskHome />
-            <TaskList />
-            <Achivement />
+            <InProgress />
+            {/* <TaskHome />
+            <SampleTaskList />
             <Dashboard />
-            <Progress />
+            <Achivement /> */}
+
+            {/* <Progress /> */}
           </>
         )}
       </main>
