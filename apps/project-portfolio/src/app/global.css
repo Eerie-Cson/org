@@ -17,3 +17,7 @@ section {
 #task-home {
   scroll-margin-top: 500px; /* Adjust this to match your navbar height or specific needs for this section */
 }
+
+#tasks {
+  scroll-margin-top: 10px; /* Adjust this to match your navbar height or specific needs for this section */
+}

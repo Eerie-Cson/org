@@ -3,7 +3,7 @@ import ChartSection from './ChartHome';
 import QuoteSection from './Quote';
 import CallToAction from './Button';
 import InfoCards from './InfoCard';
-import { quotes } from '../../../data/qoutes';
+import { quotes } from '../../../libs/data/qoutes';
 
 const barChartData = {
   labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
