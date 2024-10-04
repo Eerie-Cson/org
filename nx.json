@@ -45,5 +45,20 @@
         "linter": "eslint"
       }
     }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "accessToken": "NjE0NzBiMDQtMWI0OC00YmNiLWFiY2UtM2RiMTI3Y2JkNTlmfHJlYWQtd3JpdGU=",
+        "cacheableOperations": ["build", "test", "lint", "e2e"],
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
+      }
+    },
+    "no-cloud": {
+      "runner": "@nrwl/workspace/src/tasks-runner/default-tasks-runner",
+      "options": {}
+    }
   }
 }
