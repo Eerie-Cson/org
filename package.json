@@ -7,7 +7,7 @@
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
-    "@netlify/plugin-nextjs": "^5.6.0",
+    "@netlify/plugin-nextjs": "^5.7.3",
     "chance": "^1.1.12",
     "chart.js": "^4.4.4",
     "dayjs": "^1.11.13",
