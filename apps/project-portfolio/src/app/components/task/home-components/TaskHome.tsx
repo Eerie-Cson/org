@@ -10,7 +10,7 @@ const barChartData = {
   datasets: [
     {
       label: 'Daily Tasks Completed',
-      data: [10, 20, 5, 80, 64, 0, 100], // Assuming these are percentage values
+      data: [100, 90, 80, 90, 80, 90, 100], // Assuming these are percentage values
       backgroundColor: 'rgba(96, 165, 250, 0.5)',
       borderColor: 'rgba(99, 102, 241, 1)',
       borderWidth: 1,
@@ -64,10 +64,13 @@ const Home: React.FC = () => {
       {/* Dashboard Section */}
       <div className="flex-1 p-8 md:p-12 lg:p-16 flex items-center justify-center relative">
         <div className="bg-white bg-opacity-90 p-12 rounded-2xl shadow-lg w-full max-w-3xl ">
-          <h2 className="text-2xl font-bold text-indigo-700 mb-4">
+          <h2 className="text-2xl font-bold text-indigo-700 mb-4 blur-sm">
             My Progress Dashboard
           </h2>
           <ChartSection data={barChartData} />
+        </div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-2 border-indigo-700 bg-white rounded-md p-4 shadow-md text-indigo-600">
+          This page is under construction.
         </div>
       </div>
 

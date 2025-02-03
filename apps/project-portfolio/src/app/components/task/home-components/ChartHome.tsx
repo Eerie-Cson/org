@@ -26,7 +26,7 @@ interface ChartSectionProps {
 
 const ChartSection: React.FC<ChartSectionProps> = ({ data }) => {
   return (
-    <div className="relative h-80">
+    <div className={`relative h-80 blur-sm `}>
       <Bar
         data={data}
         options={{

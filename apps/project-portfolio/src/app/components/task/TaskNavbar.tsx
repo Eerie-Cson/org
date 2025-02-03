@@ -13,17 +13,17 @@ const TaskNavbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="#tasks" className="text-white text-2xl font-bold">
-              Task Manager
+              My Daily Routine
             </Link>
           </div>
           <div className="hidden md:flex space-x-4">
-            <Link
+            {/* <Link
               href="#task-home"
               className="text-gray-100 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Home
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="#tasks"
               className="text-gray-100 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
@@ -46,7 +46,10 @@ const TaskNavbar = () => {
               className="text-gray-100 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Progress
-            </Link>
+            </Link> */}
+            <h3 className="text-white font-bold">
+              Welcome to Ericson&apos;s Routine
+            </h3>
           </div>
           <div className="-mr-2 flex md:hidden">
             <button

@@ -15,14 +15,14 @@ const QuoteSection: React.FC<QuoteSectionProps> = ({ quote }) => {
       <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-purple-500 to-indigo-700 animate-fadeInUp">
         Welcome to My Daily Habits
       </h1>
-      <p className="mt-4 text-indigo-900 text-lg md:text-xl animate-fadeIn delay-500">
-        <blockquote className="text-indigo-900 animate-wiggle">
+      <div className="mt-4 text-indigo-900 text-lg md:text-xl animate-fadeIn delay-500">
+        <div className="text-indigo-900 animate-wiggle">
           <p className="text-lg italic">&quot;{quote.text}&quot;</p>
           <footer className="mt-2 text-indigo-600 font-semibold">
             ~ {quote.author}
           </footer>
-        </blockquote>
-      </p>
+        </div>
+      </div>
     </div>
   );
 };
